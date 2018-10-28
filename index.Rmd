@@ -11,14 +11,14 @@ output:
 __Hey! I know it's lame, but it's still a website~__
 
 
-### Add some links
+### Resume
 
-I like [to look for code on the internet](https://junyuanz3036.github.io/resume.html).
+I like share my [resume](https://junyuanz3036.github.io/resume.html).
 
 
 
 ### BTW this is a picture of my dogs~
 
-Ain't she great:
+Ain't they gorgeous:
 
 <img src = "images/my_dogs.png" style = "width:105%">
