@@ -9,11 +9,10 @@ output:
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(viridis)
-library(p8105.datasets)
 library(plotly)
 ```
 
-```{r data_import, include=FALSE}
+```{r data_import}
 library(p8105.datasets)
 data(instacart)
 data = instacart
