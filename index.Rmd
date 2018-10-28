@@ -1,5 +1,5 @@
 ---
-title: "Here is my website!"
+title: "Hello there~"
 output:
   html_document: 
     toc: true
@@ -17,8 +17,8 @@ I like [to look for code on the internet](https://junyuanz3036.github.io/resume.
 
 
 
-### Picture of my dog
+### BTW this is a picture of my dogs~
 
 Ain't she great:
 
-<img src = "images/heres_my_dog.png" style = "width:105%">
+<img src = "images/my_dogs.png" style = "width:105%">
