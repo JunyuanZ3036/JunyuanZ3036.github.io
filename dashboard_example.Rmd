@@ -22,7 +22,7 @@ data = instacart
 Column {data-width=500}
 -----------------------------------------------------------------------
 
-### Chart A
+### Top 10 aisles
 
 ```{r plot1}
 data %>% 
@@ -40,7 +40,7 @@ data %>%
 Column {data-width=500}
 -----------------------------------------------------------------------
 
-### Chart B
+### Fresh vegetables order distribution in a day
 
 ```{r plot2}
 data %>% 
@@ -50,7 +50,7 @@ data %>%
   plot_ly(x = ~order_hour_of_day, y = ~n, type = 'scatter', mode = 'lines')
 ```
 
-### Chart C
+### Reorder time interval
 
 ```{r plot3}
 data %>% 
