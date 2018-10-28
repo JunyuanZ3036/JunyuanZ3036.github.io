@@ -1,7 +1,24 @@
 ---
-title: "Holy cow!"
+title: "Here is my website!"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
 ---
 
 ### I have a webpage!
 
-And I can put all kinds of stuff on it!
+__Hey! I know it's lame, but it's still a website~__
+
+
+### Add some links
+
+I like [to look for code on the internet](https://junyuanz3036.github.io/resume.html).
+
+
+
+### Picture of my dog
+
+Ain't she great:
+
+<img src = "images/heres_my_dog.png" style = "width:105%">
