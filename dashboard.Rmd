@@ -13,7 +13,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r data_import}
+```{r data_import, include=FALSE}
 library(p8105.datasets)
 data(instacart)
 data = instacart
