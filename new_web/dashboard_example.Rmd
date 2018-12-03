@@ -1,0 +1,60 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(viridis)
+library(plotly)
+```
+
+```{r data_import}
+library(p8105.datasets)
+data(instacart)
+data = instacart
+```
+
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Top 10 aisles
+
+```{r plot1}
+data %>% 
+  group_by(., aisle) %>%
+  summarize(., n = n()) %>% 
+  mutate(., aisle_ranking = min_rank(desc(n))) %>% 
+  arrange(., desc(n)) %>% 
+  filter(., aisle_ranking <= 10) %>% 
+  mutate(., aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, type = "bar", color = ~aisle)
+
+```
+
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Fresh vegetables order distribution in a day
+
+```{r plot2}
+data %>% 
+  filter(., aisle == 'fresh vegetables') %>% 
+  group_by(., order_hour_of_day) %>% 
+  summarize(., n = n()) %>% 
+  plot_ly(x = ~order_hour_of_day, y = ~n, type = 'scatter', mode = 'lines')
+```
+
+### Reorder time interval
+
+```{r plot3}
+data %>% 
+  filter(., aisle == 'fresh vegetables' | aisle == 'fresh fruits' | aisle == 'milk' | aisle == 'bread', reordered =='1') %>% 
+  plot_ly(y = ~days_since_prior_order, color = ~aisle, type = "box",
+          colors = "Set2")
+```

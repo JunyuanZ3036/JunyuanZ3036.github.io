@@ -1,0 +1,26 @@
+---
+title: "Resume"
+---
+
+### My Academic Experience
+
+__GEORGETOWN UNIVERSITY MEDICAL CENTER__
+(July, 2014-Sept, 2014)
+
+Title: Propagation of Glycopeptide Identification Using Spectra Similarity Network
+
+Summary: In order to propagate the glycopetide identification, we developed a Python-based program which substantially increases the number of identified glycopeptide spectra while significantly reduces the false discovery rate. 
+
+__THE STATE KEY LABORATORY of BIOREACTOR ENGINEERING at ECUST__
+(Sept, 2011-June, 2012)
+
+Title: Identification and Analysis of Ugd in Edwardsiella tarda   
+
+Summary: In this research, with the Edwardsiella tarda EIB202, an ugd deletion mutant and its complementation were constructed. The following susceptibility test and survival experiments using zebrafish as model make it a potential vaccine candidate against E. tarda infection.
+
+__NATIONAL INSTITUTE of BIOLOGICAL SCIENCE (NIBS), Beijing__
+(July, 2011-Sept, 2011)
+
+Title: Electron Tomography Study of Molecular Mechanism of Listeria Monocytogenes Infecting Mongolian Gerbil   
+
+Summary: At NIBS, I got access to Electron Tomography and learnt to prepare and observe those samples.

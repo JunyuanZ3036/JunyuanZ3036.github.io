@@ -1,0 +1,26 @@
+---
+title: "Hello there~"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+### I have a webpage!
+
+__Hey! I know it's lame, but it's still a website~__
+
+
+### Resume
+
+I like share my [resume](https://junyuanz3036.github.io/resume.html).
+
+### Dashboard example
+
+This is my [dashboard example](https://junyuanz3036.github.io/dashboard_example.html).
+
+### BTW this is a picture of my dogs~
+
+Ain't they gorgeous:
+
+<img src = "images/my_dogs.png" style = "width:105%">
